@@ -1,0 +1,47 @@
+body {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.navbar {
+  background: #222121;
+}
+
+.card {
+  background: #111;
+  border: none;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #0d6efd;
+}
+
+.btn-custom {
+  width: 100%;
+}
+
+.social img {
+  transition: 0.2s;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+}
+
+.p {
+  color: aliceblue;
+  text-align: justify;
+}
+
